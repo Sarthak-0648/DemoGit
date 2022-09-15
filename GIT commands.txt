@@ -1,0 +1,40 @@
+git init (To initialize the git when you open it)
+
+git status (Check files status)
+
+git add . (to add files to staging area)
+
+git remote add [origin] "ssh key" (it add github file position) [u can name it anything]
+
+git commit -m "what u want to commit"  (like comment or something)
+
+git remote (it tells current remote like current remote is origin)
+
+git push -u origin master         (files and code will be added to repo in github)[master is default branch]
+
+git pull origin master         (files and code will be added to window from repo in github)[master is default branch]
+
+git branch  (will tell u in which brancg u are)
+
+git branch branchName   (will create a new branch with the name u have given like here branchName)
+
+git checkout branchName  (will switched to branch u want to switch by writing it's name)
+
+git checkout -b branchname  (will delete the branch of the name u have written)
+
+git merge branchName   (will merge the branch branchName with the branch u r in)
+
+git log    (will give u info of all what u have done)
+
+git diff filename    (will tell u what u have done or change in file)
+
+git diff --staged filename (will tell u that something staged have changed in files)
+
+git config --global user.name (will tell the username)
+
+git config --global user.name [name] (will change the username)
+
+git config --global user.email [email]  (will change the email)
+
+rm -rf .git  (will delete the connection with git bash of files)
+
